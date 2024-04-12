@@ -9,6 +9,75 @@ html {
    
 }
 
-h1, h3 {
+h1, h3, .nav-li {
+    color: #B88603;
+}
+
+nav {
+    padding: 2rem;
+    margin-right: 5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.nav-li {
+    margin: 0 0 0 10rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 7rem 2rem 7rem 2rem;
+}
+
+.section-left{
+    text-align: left;
+    width: 40%;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 2rem 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: -2.1rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+.section-right {
+    height: 35rem;
+    overflow: hidden; 
+}
+
+img {
+    max-height: 100%; 
+    width: auto; 
+    display: block; 
+}
+
+p {
+    width: 60%;
+    line-height: 1.8rem;
+    margin-left: 1rem;
+    
+}
+
+button {
+    border: #B88603 solid 1px ;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Lustria', sans-serif;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.fa-arrow-down {
     color: #B88603;
 }
