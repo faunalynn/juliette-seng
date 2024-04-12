@@ -38,6 +38,22 @@ main {
     text-align: left;
     width: 40%;
 }
+.section-left-xp {
+    text-align: left;
+    width: 60%;
+}
+
+.section-right {
+    height: 35rem;
+    overflow: hidden; 
+}
+
+.section-right-xp {
+    height: 35rem;
+    overflow: hidden; 
+    width: 40%;
+    padding-top: 4rem;
+}
 
 h1 {
     font-size: 6rem;
@@ -51,10 +67,6 @@ h3 {
     margin-bottom: 3rem;
 }
 
-.section-right {
-    height: 35rem;
-    overflow: hidden; 
-}
 
 img {
     max-height: 100%; 
