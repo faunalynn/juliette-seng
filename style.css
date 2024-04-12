@@ -45,6 +45,17 @@ main {
     overflow: hidden; 
 }
 
+.section-left-xp {
+    text-align: left;
+    width: 60%
+}
+
+.section-right-xp {
+    width: 40%;
+    border: red 1px solid;
+    
+}
+
 h1 {
     font-size: 6rem;
     margin: 2rem 1rem;
