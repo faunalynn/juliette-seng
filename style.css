@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
+/* Styles généraux */
+
 html {
     background: url('./assets/motif.svg') no-repeat fixed;
     background-position: calc(100% + 300px) calc(100% + 300px);
     background-color: #F6E9EA;
-    font-family: 'Lustria', sans-serif ;
+    font-family: 'Lustria', sans-serif;
     color: #483932;
-   
 }
 
 h1, h3, .nav-li {
@@ -34,25 +35,14 @@ main {
     margin: 7rem 2rem 7rem 2rem;
 }
 
-.section-left{
+.section-left {
     text-align: left;
     width: 40%;
-}
-.section-left-xp {
-    text-align: left;
-    width: 60%;
 }
 
 .section-right {
     height: 35rem;
     overflow: hidden; 
-}
-
-.section-right-xp {
-    height: 35rem;
-    overflow: hidden; 
-    width: 40%;
-    padding-top: 4rem;
 }
 
 h1 {
@@ -67,7 +57,6 @@ h3 {
     margin-bottom: 3rem;
 }
 
-
 img {
     max-height: 100%; 
     width: auto; 
@@ -78,7 +67,6 @@ p {
     width: 60%;
     line-height: 1.8rem;
     margin-left: 1rem;
-    
 }
 
 button {
@@ -92,4 +80,78 @@ button {
 
 .fa-arrow-down {
     color: #B88603;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-left {
+        width: 60%;
+    }
+
+    .section-right {
+        height: 35rem;
+        overflow: hidden; 
+    }
+
+    h3 {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+    margin: 1rem;
+    padding: 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .nav-li {
+        margin: 0 ;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center; 
+        margin: 0;
+    }
+    
+    .section-left {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .section-right {
+        height: auto;
+        overflow: hidden; 
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        margin: 0 ;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    
+    p {
+        width: 93%;
+        margin: 1rem;
+    }
+    
+    button {
+        margin-bottom: 5rem;
+        margin-left: 0rem;
+
+    }
 }
