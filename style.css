@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+html {
+    background: url('./assets/motif.svg') no-repeat fixed;
+    background-position: calc(100% + 300px) calc(100% + 300px);
+    background-color: #F6E9EA;
+    font-family: 'Lustria', sans-serif ;
+    color: #483932;
+   
+}
+
+h1, h3 {
+    color: #B88603;
+}
