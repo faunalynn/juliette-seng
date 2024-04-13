@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
-/* Styles généraux */
-
+/* Main style */
 html {
     background: url('./assets/motif.svg') no-repeat fixed;
     background-position: calc(100% + 300px) calc(100% + 300px);
@@ -35,6 +34,11 @@ main {
     margin: 7rem 2rem 7rem 2rem;
 }
 
+.main-xp {
+    display: flex;
+    align-items: center;
+}
+
 .section-left {
     text-align: left;
     width: 40%;
@@ -52,8 +56,6 @@ main {
 
 .section-right-xp {
     width: 40%;
-    border: red 1px solid;
-    
 }
 
 h1 {
@@ -93,6 +95,8 @@ button {
     color: #B88603;
 }
 
+
+/* view for ipad screens */
 @media screen and (max-width: 1024px) {
     nav {
         margin: 1rem;
@@ -152,6 +156,8 @@ button {
         }
 
     }
+
+/* view for smartphones screen */
 @media screen and (max-width: 768px) {
     nav {
     margin: 1rem;
@@ -206,6 +212,5 @@ button {
     button {
         margin-bottom: 5rem;
         margin-left: 0rem;
-
     }
 }
