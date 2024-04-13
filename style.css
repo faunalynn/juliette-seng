@@ -131,9 +131,15 @@ button {
             margin-bottom: 3rem;
             margin-top: 1rem;
         }
+
+        .section-left-xp, .section-right-xp{
+            text-align: center;
+            width: 100%;
+            margin: 1rem 0;
+        }
         
         h1 {
-            font-size: 5rem;
+            font-size: 4rem;
             margin: 1rem 0 0 0 ;
         }
         
@@ -167,7 +173,6 @@ button {
     ul {
         display: flex;
         justify-content: space-around;
-        
     }
     
     .nav-li {
@@ -179,6 +184,13 @@ button {
         flex-direction: column-reverse;
         align-items: center; 
         margin: 0;
+    }
+
+    .main-xp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
     }
     
     .section-left {
@@ -193,13 +205,19 @@ button {
         margin-top: 1rem;
     }
     
+    .section-left-xp, .section-right-xp{
+        text-align: center;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
     h1 {
         font-size: 3rem;
         margin: 0 ;
     }
     
     h3 {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         margin-top: 1rem;
     }
 
@@ -207,6 +225,7 @@ button {
     p {
         width: 93%;
         margin: 1rem;
+        text-align: center;
     }
     
     button {
