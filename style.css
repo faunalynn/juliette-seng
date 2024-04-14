@@ -322,7 +322,11 @@ button:hover {
 
     .section-left-services, .section-right-services {
         height: 22rem;
-        margin: 1.5rem;
+        margin: 2rem 1rem 2rem 1rem;
         border: solid 2px #B88603;
+    }
+
+    .h1-services {
+        margin: 1rem;
     }
 }
