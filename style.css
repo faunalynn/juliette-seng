@@ -44,6 +44,10 @@ ul {
     margin: 0 0 0 10rem;
 }
 
+.nav-li:hover {
+    text-decoration: underline;
+} 
+
 main {
     display: flex;
     justify-content: center;
@@ -97,6 +101,11 @@ button {
     font-family: 'Lustria', sans-serif;
     margin-top: 5rem;
     margin-left: 2rem;
+}
+
+button:hover {
+    background-color: #B88603;
+    color: #F6E9EA;
 }
 
 .fa-arrow-down {
