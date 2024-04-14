@@ -186,6 +186,10 @@ button {
         flex-direction: column;
     }
 
+    .logo-mini {
+        height: 4rem ;
+    }
+
     nav {
     margin: 1rem;
     padding: 0;
@@ -197,7 +201,7 @@ button {
     }
     
     .nav-li {
-        margin: 0.8rem ;
+        margin: 0 0.8rem ;
         font-size: 0.8rem;
     }
     
