@@ -227,6 +227,10 @@ button:hover {
             margin: 2rem 10rem;
         }
         
+        .services-main-container {
+            display: flex;
+            flex-direction: column;
+        }
 
     }
 
@@ -305,5 +309,20 @@ button:hover {
 
     .logo-big {
         margin: 2rem;
+    }
+
+    .list-container {
+        padding: 1.2rem;
+    }
+    
+    .ul-services {
+        line-height: 2rem;
+        margin: 1rem ;
+    }
+
+    .section-left-services, .section-right-services {
+        height: 22rem;
+        margin: 1.5rem;
+        border: solid 2px #B88603;
     }
 }
