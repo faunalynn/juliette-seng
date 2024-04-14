@@ -20,8 +20,20 @@ header {
     display: flex;
 }
 
-h1, h3, .nav-li {
+h1, h2, h3, .nav-li {
     color: #B88603;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.h1-services {
+    margin: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 .logo-mini {
@@ -34,7 +46,7 @@ nav {
     margin-right: 5rem;
 }
 
-ul {
+.ul-nav {
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
@@ -46,9 +58,18 @@ ul {
 
 .nav-li:hover {
     text-decoration: underline;
-} 
+}
 
-main {
+.list-container {
+    padding: 3rem;
+}
+
+.ul-services {
+    line-height: 2rem;
+    margin: 1rem 2rem;
+}
+
+.main-index {
     display: flex;
     justify-content: center;
     margin: 7rem 2rem 7rem 2rem;
@@ -56,6 +77,12 @@ main {
 
 .main-xp {
     display: flex;
+    align-items: center;
+}
+
+.main-services {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -78,8 +105,10 @@ main {
     width: 40%;
 }
 
-h1 {
-    font-size: 4rem;
+.section-left-services, .section-right-services {
+    height: 22rem;
+    margin: 1rem;
+    border: solid 2px #B88603;
 }
 
 img {
@@ -108,12 +137,26 @@ button:hover {
     color: #F6E9EA;
 }
 
-.fa-arrow-down {
+.fa-arrow-down, .fa-circle {
     color: #B88603;
+}
+
+.fa-circle {
+    margin-right: 1rem;
 }
 
 .logo-big {
     margin: 2rem;
+}
+
+.h1-service{
+    position: absolute;
+    left: 5rem;
+    top: 8rem;
+}
+.services-main-container {
+    display: flex;
+    flex-direction: row;
 }
 
 /* view for ipad screens */
@@ -123,7 +166,7 @@ button:hover {
         padding: 0;
         }
     
-        ul {
+        .ul-nav {
             display: flex;
             justify-content: space-around;
             
@@ -133,7 +176,7 @@ button:hover {
             margin: 2rem ;
         }
         
-        main {
+        .main-index {
             display: flex;
             flex-direction: column-reverse;
             align-items: center; 
@@ -204,7 +247,7 @@ button:hover {
     padding: 0;
     }
 
-    ul {
+    .ul-nav {
         display: flex;
         justify-content: space-around;
     }
@@ -214,7 +257,7 @@ button:hover {
         font-size: 0.8rem;
     }
     
-    main {
+    .main-index {
         display: flex;
         flex-direction: column-reverse;
         align-items: center; 
