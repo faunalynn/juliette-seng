@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
 /* Main style */
-html {
+body, html {
     background: url('./assets/motif.svg') no-repeat fixed;
     background-position: calc(100% + 300px) calc(100% + 300px);
     background-color: #F6E9EA;
     font-family: 'Lustria', sans-serif;
     color: #483932;
-
-}
-
-body {
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 header {
@@ -26,10 +24,6 @@ h1, h2, h3, .nav-li {
 
 h1 {
     font-size: 4rem;
-}
-
-.h1-services {
-    margin: 3rem;
 }
 
 h2 {
@@ -64,11 +58,6 @@ nav {
     padding: 3rem;
 }
 
-.ul-services {
-    line-height: 2rem;
-    margin: 1rem 2rem;
-}
-
 .main-index {
     display: flex;
     justify-content: center;
@@ -77,12 +66,6 @@ nav {
 
 .main-xp {
     display: flex;
-    align-items: center;
-}
-
-.main-services {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -107,12 +90,6 @@ nav {
 
 .section-left-xp, .section-right-xp{
     margin: 4rem;
-}
-
-.section-left-services, .section-right-services {
-    height: 22rem;
-    margin: 1rem;
-    border: solid 2px #B88603;
 }
 
 img {
@@ -153,14 +130,28 @@ button:hover {
     margin: 2rem;
 }
 
-.h1-service{
-    position: absolute;
-    left: 5rem;
-    top: 8rem;
-}
-.services-main-container {
+.container {
+    height: 200vh;
+    width: 100vh;
+    overflow: hidden;
+  }
+  
+  .section {
+    height: 100vh; 
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    background-color: aquamarine;
+    top: 0;
+}
+
+.section2 {
+    background-color: pink;
+    bottom: 0;
 }
 
 /* view for ipad screens */
@@ -231,10 +222,6 @@ button:hover {
             margin: 2rem 10rem;
         }
         
-        .services-main-container {
-            display: flex;
-            flex-direction: column;
-        }
 
     }
 
@@ -319,18 +306,5 @@ button:hover {
         padding: 1.2rem;
     }
     
-    .ul-services {
-        line-height: 2rem;
-        margin: 1rem ;
-    }
-
-    .section-left-services, .section-right-services {
-        height: 22rem;
-        margin: 2rem 1rem 2rem 1rem;
-        border: solid 2px #B88603;
-    }
-
-    .h1-services {
-        margin: 1rem;
-    }
+   
 }
