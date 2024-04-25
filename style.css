@@ -28,6 +28,11 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+h3 {
+    margin: 2rem;
 }
 
 .logo-mini {
@@ -132,7 +137,7 @@ button:hover {
 
 .section-service-left, .section-service-right {
     border:#B88603 2px solid;
-    padding: 1rem;
+    padding: 2rem;
     margin: 2rem;
     width: 50%;
 }
@@ -148,6 +153,39 @@ button:hover {
     margin: 2rem;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 30%;
+}
+
+.article-img {
+    height: 10rem;
+    margin: 2rem;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+
+.service-2nd-title {
+    text-align: center
+}
+
+.service-h1 {
+    margin-left: 4rem;
+}
+
+.service-p {
+    width: 80%;
+    text-align: justify;
+    margin: 0 2rem 4rem 2rem;
+}
 
 /* view for ipad screens */
 @media screen and (max-width: 1161px) {
@@ -301,5 +339,50 @@ button:hover {
         padding: 1.2rem;
     }
     
-   
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-h1 {
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+
+    .article-img {
+        width: auto;
+        margin: 0rem;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+        width: 70%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .section-service-left, .section-service-right {
+        width: 100%;
+    }
+
+    .service-2nd-title {
+        font-size: 1.3rem;
+        margin-bottom: 4rem;
+    }
 }
