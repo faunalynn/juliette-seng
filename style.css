@@ -55,7 +55,7 @@ nav {
     margin: 0 0 0 10rem;
 }
 
-.nav-li:hover {
+.nav-li:hover, .email:hover {
     text-decoration: underline;
 }
 
@@ -123,8 +123,9 @@ button:hover {
     color: #F6E9EA;
 }
 
-.fa-arrow-down, .fa-circle {
+.fa-arrow-down, .fa-circle, .fa-brands, .fa-solid {
     color: #B88603;
+    margin: 0 0.5rem;
 }
 
 .fa-circle {
@@ -185,6 +186,44 @@ article {
     width: 80%;
     text-align: justify;
     margin: 0 2rem 4rem 2rem;
+}
+
+.contact-sections-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section-right, .contact-section-left {
+    width: 50%;
+    overflow: hidden;
+    margin: 3rem;
+}
+
+.contact-p {
+    width: 100%;
+    margin-left: 0;
+    margin: 2rem 0; 
+}
+
+.phone-nb, .email {
+    margin: 1rem 1rem;
+}
+
+.link-icon {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+
+.fa-brands {
+    transition: font-size 0.3s ease;
+    margin: 4rem 0.7rem;
+}
+
+.fa-brands:hover {
+    font-size: 3rem;
 }
 
 /* view for ipad screens */
