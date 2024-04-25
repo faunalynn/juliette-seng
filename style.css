@@ -216,7 +216,6 @@ article {
     font-size: 2rem;
 }
 
-
 .fa-brands {
     transition: font-size 0.3s ease;
     margin: 4rem 0.7rem;
@@ -423,5 +422,26 @@ article {
     .service-2nd-title {
         font-size: 1.3rem;
         margin-bottom: 4rem;
+    }
+
+    .contact-sections-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-section-left {
+        width: 100%;
+    }
+
+    .contact-section-right {
+        width: 90%;
+        text-align: center;
+    }
+
+    .email {
+        display: block;
+        text-align: left;
     }
 }
